@@ -1,6 +1,5 @@
-export default getResponseFromAPI {
-  function getResponseFromAPI() {
+function getResponseFromAPI() {
   /* return a promise using the prototype function */
-  return Promise.resolve({});
-  }	  
+  return Promise.resolve({});	  
 }
+export default getResponseFromAPI;
