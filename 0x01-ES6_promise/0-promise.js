@@ -1,4 +1,3 @@
-const myPromise = new Promise(getResponseFromAPI(resolve, reject) {});
+const myPromise = new Promise(function getResponseFromAPI(resolve, reject));
 
 return new Promise;
-function getResponseFromAPI()
