@@ -1,4 +1,4 @@
-
-
-const response = getResponseFromAPI((resolve, reject));
-return response;
+export default getResponseFromAPI;
+function getResponseFromAPI() {
+  return Promise.resolve({});
+}
