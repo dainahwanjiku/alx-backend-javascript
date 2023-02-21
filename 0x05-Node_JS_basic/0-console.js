@@ -1,4 +1,6 @@
-//function that prints in STDOUT the string argument
+/*
+ * create a function displayMessage that prints in STDOUT the string argument
+ */
 const displayMessage = (msg) => {
   console.log(msg);
 };
