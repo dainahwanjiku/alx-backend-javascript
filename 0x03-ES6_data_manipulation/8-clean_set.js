@@ -1,3 +1,6 @@
+/**
+ * Joins a set of strings with a dash after stripping the strings of
+ */
 export default function cleanSet(set, startString) {
   const parts = [];
   if (!set || !startString || !(set instanceof Set) || typeof startString !== 'string') {
