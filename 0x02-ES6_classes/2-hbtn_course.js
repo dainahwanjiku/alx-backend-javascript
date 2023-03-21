@@ -4,10 +4,11 @@ export default class HolbertonCourse {
     this.length = length;
     this.students = students;
   }
-  
+
   get name() {
     return this._name;
   }
+
   set name(name) {
     if (typeof name !== 'string') throw TypeError('Name must be a string');
     this._name = name;
